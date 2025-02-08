@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?><ResultsSession buildId="CICD_JavaProjectTemplate-2024-07-08" climode="true" endTime="2024-07-08T16:32:38+08:00" execEnv="win32_x86_64" hasViols="true" id="1721839056535" lang="en_US" machine="MACHINE-NAME" prjModule="com.parasoft:project-with-default-package" project="CICD_JavaProjectTemplate" tag="roller(can-be-removed)-com.parasoft:project-with-default-package-${scontrol_branch}-win32_x86_64" time="2024-07-08T16:32:38+08:00" toolDispName="Jtest" toolId="jtest" toolName="DTP Engine for Java" toolVer="2024.1.1" user="user">
+   <TestConfig machine="MACHINE-NAME" name="settings" pseudoUrl="jtest.dtp://roller(can-be-removed)" user="user"/>
+   <Authors>
+      <Author id="dev1" name="user"/>
+   </Authors>
+   <Analyzers>
+      <Analyzer id="com.parasoft.jtest.standards.checkers.java" name="Parasoft Java Static Analyzer" ver="10.7.0.20240618"/>
+   </Analyzers>
+   <VersionInfos>
+      <StorageInfo ownerId="" resultId="ISetupResult" ver="1" ver10x="1"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IMetricsViolation" ver="2" ver10x="1"/>
+      <StorageInfo ownerId="" resultId="IExecutionViolation" ver="1" ver10x="1"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IDupCodeViolation" ver="2" ver10x="1"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IFlowAnalysisViolation" ver="2" ver10x="1"/>
+      <StorageInfo ownerId="" resultId="IFunctionalViolation" ver="1" ver10x="1"/>
+      <StorageInfo ownerId="" resultId="IChangeImpactViolation" ver="1" ver10x="1"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="ICodingStandardsViolation" ver="2" ver10x="1"/>
+      <StorageInfo ownerId="" resultId="IUnitTestViolation" ver="1" ver10x="1"/>
+   </VersionInfos>
+   <Goals tsks="1">
+      
+   </Goals>
+   <Scope>
+      <Repositories/>
+      <Locations>
+         <Loc hash="1741334343" locRef="1" projId="com.parasoft:project-with-default-package" projPath="/com.parasoft:project-with-default-package" project="com.parasoft:project-with-default-package" resProjPath="src/main/java/Calculator.java" totLns="27" uri="file:/D:/JavaProjectTemplate/src/main/java/Calculator.java"/>
+         <Loc hash="-662881149" locRef="2" projId="com.parasoft:project-with-default-package" projPath="/com.parasoft:project-with-default-package" project="com.parasoft:project-with-default-package" resProjPath="src/main/java/com/parasoft/Convertor.java" totLns="14" uri="file:/D:/JavaProjectTemplate/src/main/java/com/parasoft/Convertor.java"/>
+         <Loc hash="-226811386" locRef="3" projId="com.parasoft:project-with-default-package" projPath="/com.parasoft:project-with-default-package" project="com.parasoft:project-with-default-package" resProjPath="src/main/java/com/parasoft/Demo.java" totLns="15" uri="file:/D:/JavaProjectTemplate/src/main/java/com/parasoft/Demo.java"/>
+         <Loc hash="469181545" locRef="4" projId="com.parasoft:project-with-default-package" projPath="/com.parasoft:project-with-default-package" project="com.parasoft:project-with-default-package" resProjPath="src/main/java/com/parasoft/another/Convertor.java" totLns="14" uri="file:/D:/JavaProjectTemplate/src/main/java/com/parasoft/another/Convertor.java"/>
+         <Loc hash="-1706285489" locRef="5" projId="com.parasoft:project-with-default-package" projPath="/com.parasoft:project-with-default-package" project="com.parasoft:project-with-default-package" resProjPath="src/main/java/com/parasoft/interfaces/IConvertor.java" totLns="5" uri="file:/D:/JavaProjectTemplate/src/main/java/com/parasoft/interfaces/IConvertor.java"/>
+         <Loc hash="1200206342" locRef="6" projId="com.parasoft:project-with-default-package" projPath="/com.parasoft:project-with-default-package" project="com.parasoft:project-with-default-package" resProjPath="src/main/java/com/parasoft/interfaces2/ICalculator.java" totLns="7" uri="file:/D:/JavaProjectTemplate/src/main/java/com/parasoft/interfaces2/ICalculator.java"/>
+         <Loc hash="-1917579824" locRef="7" projId="com.parasoft:project-with-default-package" projPath="/com.parasoft:project-with-default-package" project="com.parasoft:project-with-default-package" resProjPath="src/main/java/com/parasoft/nested/PhoneFactory.java" totLns="50" uri="file:/D:/JavaProjectTemplate/src/main/java/com/parasoft/nested/PhoneFactory.java"/>
+      </Locations>
+   </Scope>
+   
+  <SetupProblems>
+    <Problem msg="Some rules in test configuration are not supported in current Jtest version" sev="1" totErrs="1" type="MissingRulesSetupProblem">
+      <ErrorList>
+        <Error val="Flow Analysis [BD]: BD.PB.DEREF"/>
+      </ErrorList>
+    </Problem>
+    <Problem msg="Configuration setup problems:" sev="1" totErrs="1" type="ConfigurationSetupProblem">
+      <ErrorList>
+        <Error val="The METRICS rule category is deprecated. Consider enabling code metrics in your test configuration."/>
+      </ErrorList>
+    </Problem>
+  </SetupProblems>
+
+   <CodingStandards ownerId="com.parasoft.xtest.checkers.api.standards" time="0:00:00">
+      <Projects>
+         <Project bdCheckedFiles="0" bdTotalFiles="0" checkedFiles="7" checkedLns="132" id="com.parasoft:project-with-default-package" name="com.parasoft:project-with-default-package" qfixErrs="0" suppErrs="0" totErrs="1" totFiles="7" totLns="132"/>
+      </Projects>
+      
+      
+      <Rules>
+         <CategoriesList>
+            <Category authTot="0;" authUrg="0;" desc="Coding Conventions" name="CODSTA" rules="112" total="0">
+               <Category authTot="1;" authUrg="1;" desc="Organization" name="CODSTA.ORG" rules="15" total="1"/>
+            </Category>
+         </CategoriesList>
+         <RulesList>
+            <Rule analyzer="com.parasoft.jtest.standards.checkers.java" authTot="1;" authUrg="1;" cat="CODSTA.ORG" desc="Ensure all types have a non default package name" id="CODSTA.ORG.UNDPN" sev="3" total="1"/>
+         </RulesList>
+         <SeverityList>
+            <Severity authTot="1;" authUrg="1;" id="3" total="1"/>
+         </SeverityList>
+      </Rules>
+      
+  <Supps/>
+
+      
+  <StdViols>
+    <StdViol msg="Compilation unit should be placed inside a non-default package" ln="1" locFile="/com.parasoft:project-with-default-package/src/main/java/Calculator.java" auth="user" rule="CODSTA.ORG.UNDPN" lnHash="-640264574" pkg="" rule.header="Ensure all types have a non default package name" locStartPos="0" analyzer="com.parasoft.jtest.standards.checkers.java" lang="java" violId="86bef09d-4aaa-3648-b54e-80f76457dc6c" locEndPos="46" urgent="true" locEndLn="1" goals="1," locStartln="1" sev="3" locRef="1" ctx="1,0|2,0" tool="jtest" lineHash="-640264574" unbViolId="2680e241-6cfa-30ad-be9a-1d166cfcdead" locType="sr" hash="1741334343"/>
+  </StdViols>
+
+      <TestedFilesDetails>
+         <Total name="Total (Suppressed)" supp="0" total="1">
+            <Project id="com.parasoft:project-with-default-package" name="com.parasoft:project-with-default-package" supp="0" total="1">
+               <Res name="src" supp="0" total="1">
+                  <Res name="main" supp="0" total="1">
+                     <Res name="java" supp="0" total="1">
+                        <Res loc="/com.parasoft:project-with-default-package/src/main/java/Calculator.java" locRef="1" locType="sr" name="Calculator.java" supp="0" total="1"/>
+                        <Res name="com" supp="0" total="0">
+                           <Res name="parasoft" supp="0" total="0">
+                              <Res loc="/com.parasoft:project-with-default-package/src/main/java/com/parasoft/Convertor.java" locRef="2" locType="sr" name="Convertor.java" supp="0" total="0"/>
+                              <Res loc="/com.parasoft:project-with-default-package/src/main/java/com/parasoft/Demo.java" locRef="3" locType="sr" name="Demo.java" supp="0" total="0"/>
+                              <Res name="another" supp="0" total="0">
+                                 <Res loc="/com.parasoft:project-with-default-package/src/main/java/com/parasoft/another/Convertor.java" locRef="4" locType="sr" name="Convertor.java" supp="0" total="0"/>
+                              </Res>
+                              <Res name="interfaces" supp="0" total="0">
+                                 <Res loc="/com.parasoft:project-with-default-package/src/main/java/com/parasoft/interfaces/IConvertor.java" locRef="5" locType="sr" name="IConvertor.java" supp="0" total="0"/>
+                              </Res>
+                              <Res name="interfaces2" supp="0" total="0">
+                                 <Res loc="/com.parasoft:project-with-default-package/src/main/java/com/parasoft/interfaces2/ICalculator.java" locRef="6" locType="sr" name="ICalculator.java" supp="0" total="0"/>
+                              </Res>
+                              <Res name="nested" supp="0" total="0">
+                                 <Res loc="/com.parasoft:project-with-default-package/src/main/java/com/parasoft/nested/PhoneFactory.java" locRef="7" locType="sr" name="PhoneFactory.java" supp="0" total="0"/>
+                              </Res>
+                           </Res>
+                        </Res>
+                     </Res>
+                  </Res>
+               </Res>
+            </Project>
+         </Total>
+      </TestedFilesDetails>
+   </CodingStandards>
+   <Statistics>
+      
+   </Statistics>
+</ResultsSession>
